@@ -10,12 +10,14 @@
 -  Eventuale estrazione su disco per velocizzare I/O
 
 ### 2️⃣ Preprocessing e Feature Extraction
--  Conversione a **Mel spectrogrammi**
--  Scelta mono/stereo
+-  **Mel spectrogrammi** and STFT and/or MFCC and/or GFCC
+-  Scelta mono/stereo: does spatial information help? 
+-  Spatial features: inter-channel delay, energy difference
 -  Normalizzazione e padding
--  Salvataggio spettrogrammi se necessario
+-  Robustness to background noise and overlapping events
 
-### 3️⃣ Data Augmentation *(facoltativo ma consigliato)*
+
+### 3️⃣ Data Augmentation *(to not degrade the dataset)
 -  Time stretching
 -  Pitch shifting
 -  Aggiunta rumore (SNR)
@@ -24,7 +26,8 @@
 ### 4️⃣ Divisione dataset
 -  Train / Validation / Test split (es. 70/15/15) or (es. 60/20/20)
 
-### 5️⃣ Modellazione
+### 5️⃣ Modellazione 
+(DE REF: VGGNet, ResNet, SqueezeNet, MobileNetMini to capture the movement)
 -  **Baseline**: CNN 2D 
 -  **Alternative**:
   - MLP (su feature aggregate)
@@ -36,6 +39,6 @@
 -  Visualizzazione con TensorBoard o matplotlib
 
 ### 7️⃣ Valutazione e Analisi
--  Accuracy + confusion matrix
--  Errori per classe
+-  Confusion matrix
+-  Accuracy, Precision, Recall, F1-Score
 -  Effetti del rumore e delle augmentationi
