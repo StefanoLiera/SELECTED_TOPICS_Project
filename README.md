@@ -3,7 +3,7 @@
 
 ### 1️⃣ Setup and Data Import
 - Load data from `.zip`
-- Parse annotation file (`idmt_traffic_all.txt`)
+- Parse annotation file without extracting the 9GB file 
 - Extract file names and labels
 - Optionally extract to disk to speed up I/O
 
