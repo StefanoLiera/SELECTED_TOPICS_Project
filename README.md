@@ -3,7 +3,7 @@
 
 
 
-### Setup e Importazione dati
+### 1️⃣ Setup e Importazione dati
 -  Caricamento dati da `.zip`
 -  Parsing file annotazione (`idmt_traffic_all.txt`)
 -  Estrazione nomi file + etichette
