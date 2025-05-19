@@ -40,3 +40,5 @@
 - Confusion matrix
 - Accuracy, Precision, Recall, F1-Score
 - Effects of noise and augmentation
+
+### 8️⃣ Perform error analysis to identify possible improvements
