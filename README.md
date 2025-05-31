@@ -18,7 +18,6 @@
 - Time stretching
 - Pitch shifting
 - Add noise (SNR)
-- Convolution with impulse responses
 - Random Window
 
 ### 4️⃣ Dataset Splitting
