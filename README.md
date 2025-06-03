@@ -18,7 +18,6 @@
 - Time stretching
 - Pitch shifting
 - Add noise (SNR)
-- Random Window
 
 ### 4️⃣ Dataset Splitting
 - Train / Validation / Test split (e.g. 70/15/15 or 60/20/20)
