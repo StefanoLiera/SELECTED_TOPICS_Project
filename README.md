@@ -14,7 +14,7 @@
 - Normalization and padding
 - Robustness to background noise and overlapping events
 
-### 3️⃣ Data Augmentation *(to avoid degrading the dataset)* da randomizzare per diversi dati
+### 3️⃣ Data Augmentation *(to avoid degrading the dataset)* 
 - Time stretching
 - Pitch shifting
 - Add noise (SNR)
